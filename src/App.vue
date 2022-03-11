@@ -39,5 +39,5 @@
 </template>
 
 <script setup>
-def
+
 </script>
