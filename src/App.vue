@@ -1,21 +1,43 @@
-<script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="1111Hello Vue 3 + Vite" />
+  <div class="header">
+    <div class="container">
+      <div class="logo">ToDo List</div>
+      <div class="form">
+        <input type="text">
+        <button class="btn">Add a new task</button>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <h2>
+      <span>To Do</span>
+      <span class="mask-num">10</span>
+    </h2>
+    <ul class="mask-list">
+      <li>
+          <div>
+            <input type="checkbox">
+            <span>New video</span>
+          </div>
+        <button class="btn-remove">Remove</button>
+      </li>
+    </ul>
+    <h2>
+      <span>Done</span>
+      <span class="mask-num">10</span>
+    </h2>
+    <ul class="mask-list">
+      <li>
+        <div>
+          <input type="checkbox">
+          <span>Add code</span>
+        </div>
+        <button class="btn-remove">Remove</button>
+      </li>
+    </ul>
+  </div>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<script setup>
+def
+</script>
