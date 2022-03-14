@@ -43,8 +43,19 @@ export default {
   data(){
     return {
       valueInput: '',
-      needDoList: [],
-      completeList: []
+      needDoList: [
+        {id: 1, title: 'Мука'},
+        {id: 2, title: 'Молоко'},
+        {id: 3, title: 'Мука'},
+        {id: 4, title: 'Пшено'}
+      ],
+      completeList: [
+        {id: 1, title: 'Гречка'},
+        {id: 2, title: 'Тушнка'},
+        {id: 3, title: 'Забраться на гору'},
+        {id: 4, title: 'Мука'},
+        {id: 5, title: 'Посадить дерево'}
+      ]
     }
   },
   methods: {
